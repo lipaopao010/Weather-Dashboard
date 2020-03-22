@@ -1,0 +1,43 @@
+.btn{
+    background-color: lightpink;
+}
+h1{
+    background-color:gray;
+    text-align: center;
+    color: white;
+}
+.container{
+    margin-top: 5rem;
+   
+}
+#currentCity{
+    margin: 2rem;
+    
+    
+    border-color:darkgray;
+    border-style: solid;
+}
+ul{
+    list-style-type:none;
+    margin:0;
+}
+#fivedayTitle{
+    margin-left: 2rem;
+}
+.smallContainer{
+    background-color: lightpink;
+    margin:10px;
+    font-size: small;
+}
+img{
+    height: 30px;
+}
+.low{
+    background-color: green;
+}
+.moderate{
+    background-color: yellow;
+}
+.high{
+    background-color: red;
+}

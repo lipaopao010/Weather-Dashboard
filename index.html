@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href = "style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Weather Dashboard</title>
+</head>
+<body> 
+    <h1>Weather Dashboard</h1>
+    <div class = "container">
+        <div class = "row">
+            <div class = "col-sm-2">
+                <p>
+                    Search for a city
+                </p>
+                <div class="input-group">
+                    <input type="text" id = "cityEntered" class="form-control" >
+                    <div class="input-group-append">
+                      <button class="btn" id="search" type="button">Search</button>
+                    </div>
+                </div>
+                <ul class = "list-group">
+                    The searched cities
+                </ul>
+            </div>
+
+            
+            <div class = "col-sm-10">
+                <div class="row" id = "currentCity">
+                    <ul>
+                        <li id = "currentCityName">
+                            <li id ="day0"></li>
+                            <img id = "icon0">
+                            <li>
+                        <li>Temperature : <span id = "dayTemp0"></span></li>
+                        <li>Humidity : <span id = "dayHumidity0"></span></li>
+                        <li>Wind Speed : <span id = "currentCityWind"></span></li>
+                        <li> UV index : <span id = "currentCityUv"></span></li>
+                    </ul>
+                </div>
+                <div class ="row" id = "fivedayTitle">
+                    <p>Five Day Forecast :</p>
+                </div>
+                <div class ="row" id = "fiveDays">
+                    <ul class = "col-sm-2 smallContainer">
+                        <li id ="day1">Day one</li>
+                        <img id ="icon1">
+                        <li id = "dayTemp1"> Temp</li>
+                        <li id = "dayHumidity1">Humidity</li>
+                    </ul>
+                    
+                    <ul class = "col-sm-2 smallContainer">
+                        <li id ="day2">Day Two</li>
+                        <img id ="icon2">
+                        <li id = "dayTemp2"> Temp</li>
+                        <li id = "dayHumidity2">Humidity</li>
+                    </ul>
+                   
+                    <ul class = "col-sm-2 smallContainer">
+                        <li id ="day3">Day Three</li>
+                        <img id ="icon3">
+                        <li id = "dayTemp3"> Temp</li>
+                        <li id = "dayHumidity3">Humidity</li>
+                    </ul>
+                    <ul class = "col-sm-2 smallContainer">
+                        <li id ="day4">Day Four</li>
+                        <img id ="icon4">
+                        <li id = "dayTemp4"> Temp</li>
+                        <li id = "dayHumidity4">Humidity</li>
+                    </ul>
+                    <ul class = "col-sm-2 smallContainer">
+                        <li id ="day5">Day Five</li>
+                        <img id ="icon5">
+                        <li id = "dayTemp5"> Temp</li>
+                        <li id = "dayHumidity5">Humidity</li>
+                    </ul>
+                </div>
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src = "script.js" ></script>
+</body>
+</html>
