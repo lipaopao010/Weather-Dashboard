@@ -1,15 +1,17 @@
 # Weather-Dashboard
 
+## Overview
+
 Developers are often tasked with retrieving data from another application's API and using it in the context of their own. Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. This project is a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
 The third-party API used in this project is the OpenWeather API for weather data in different cities.
 
-User Story
+## User Story
 
 AS A traveler
 I WANT to see the weather outlook for multiple cities
 SO THAT I can plan a trip accordingly
 
-Acceptance Criteria
+## Acceptance Criteria
 
 GIVEN a weather dashboard with form inputs
 WHEN I search for a city
@@ -24,4 +26,8 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 The following image demonstrates the application functionality:
 
-The link of the website is  https://lipaopao010.github.io/Weather-Dashboard/
+## The link of the website 
+https://lipaopao010.github.io/Weather-Dashboard/
+
+![screenshot](weather-dashboard-screen.png)
+
